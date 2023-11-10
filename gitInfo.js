@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+const gitDefinition = "is a program.";
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,8 @@
 */
 
 //CODE HERE
-
+const gitHubDefinition =
+  "a code hosting platform for version control, collaboration, and storing code.";
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,7 +27,8 @@
 */
 
 //CODE HERE
-
+const gitInitDefinition =
+  " initialize a local repository right here in this folder";
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -34,7 +36,8 @@
 */
 
 //CODE HERE
-
+const gitCloneDefinition =
+  "copy content from this github repo to another location";
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,7 +45,7 @@
 */
 
 //CODE HERE
-
+const gitStatusDefinition = "check current status of repo";
 //////////////////PROBLEM 6////////////////////
 /*
     Create a variable called 'gitAddDefinition'.  
@@ -53,7 +56,9 @@
 */
 
 //CODE HERE
+const gitAddDefinition = "add some files in this directory to be tracked";
 
+const gitAddCode = "git add .";
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -64,8 +69,9 @@
 */
 
 //CODE HERE
+const gitCommitDefinition = "create a snapshot of the file I'm tracking";
 
-
+const gitCommitCode = "git commit -m '' ";
 //////////////////PROBLEM 8////////////////////
 /*
     Create a variable called 'gitPushDefinition'.  
@@ -73,3 +79,5 @@
 */
 
 //CODE HERE
+
+const gitPushDefinition = "pushes code to github";
