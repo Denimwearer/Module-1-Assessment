@@ -48,13 +48,18 @@ const pinkPrice = 0.55;
 */
 
 // CODE HERE
+
+/*
+make a variable called totalAcres store it to 0
+run a for loop that loops through fujiAcres and store the sum of that array to the variable totalAcres
+loop through the galaAcres array and add the sum of that array to the total Acres variable
+loop through the pinkAcres array and add the sum of that array to the total Acres variable
+log the totalAcres variable 
+*/
+
 let totalAcres = 0;
 for (let i = 0; i < fujiAcres.length; i++) {
-  totalAcres += fujiAcres[i];
-  for (let j = 0; j < galaAcres.length; j++) {}
-  totalAcres += galaAcres[i];
-  for (let k = 0; k < pinkAcres.length; k++) {}
-  totalAcres += pinkAcres[i];
+  totalAcres += fujiAcres[i] + galaAcres[i] + pinkAcres[i];
 }
 
 console.log(totalAcres);
@@ -72,7 +77,13 @@ console.log(totalAcres);
 */
 
 // CODE HERE
-const averageDailyAcres = totalAcres / 21;
+
+/*
+make a variable averageDailyAcres and set it equal to totalAcres / 
+
+
+*/
+const averageDailyAcres = totalAcres / 7;
 console.log(averageDailyAcres);
 // PROBLEM 3
 
