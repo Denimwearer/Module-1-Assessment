@@ -79,10 +79,10 @@ console.log(totalAcres);
 // CODE HERE
 
 /*
-make a variable averageDailyAcres and set it equal to totalAcres / 
-
-
+make a variable averageDailyAcres and set it equal to totalAcres / 7 the number of days
+log variable averageDailyAcres
 */
+
 const averageDailyAcres = totalAcres / 7;
 console.log(averageDailyAcres);
 // PROBLEM 3
@@ -118,6 +118,10 @@ let acresLeft = 174;
 let days = 0;
 
 // CODE HERE
+/*
+while acresLeft is greater than 0 increment the days by 1 and subtract averageDailyAcres from AcresLeft
+log the days
+*/
 while (acresLeft > 0) {
   days++;
   acresLeft -= averageDailyAcres;
@@ -149,6 +153,13 @@ console.log(days);
 
 // CODE HERE
 
+/*
+make 3 empty arrays 
+run a for loop that loops through the acres 
+push the acres in tons to the corresponding tons array
+log the tons
+*/
+
 let fujiTons = [];
 let galaTons = [];
 let pinkTons = [];
@@ -178,6 +189,13 @@ console.log(pinkTons);
 */
 
 // CODE HERE
+
+/*
+set 3 variables to 0 
+run a for loop that 
+converts the apple tons into pounds
+log the apples in pounds
+*/
 
 let fujiPounds = 0;
 let galaPounds = 0;
@@ -211,6 +229,11 @@ console.log(pinkPounds);
 
 // CODE HERE
 
+/*
+set the profit variables equal to pounds times price 
+log the profit
+*/
+
 let fujiProfit = fujiPounds * fujiPrice;
 let galaProfit = galaPounds * galaPrice;
 let pinkProfit = pinkPounds * pinkPrice;
@@ -230,6 +253,11 @@ console.log(pinkProfit);
 */
 
 // CODE HERE
+
+/*
+set the totalProfit variable equal to the sum of all the profits 
+log the `Total profit is $${totalProfit}`
+*/
 
 let totalProfit = fujiProfit + galaProfit + pinkProfit;
 console.log(`Total profit is $${totalProfit}`);
