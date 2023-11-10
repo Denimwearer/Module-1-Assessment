@@ -20,7 +20,7 @@
 const planning =
   "This is the first step, in which the end goal of the software is determined and defined. Developers typically will see what systems are already in place, and determine what features will need to be added.";
 
-const analysisOfRequirements = "what is rewquire to complete software";
+const analysisOfRequirements = "what is require to complete software";
 
 const design = "how am i organizing my files ";
 
