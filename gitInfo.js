@@ -28,7 +28,7 @@ const gitHubDefinition =
 
 //CODE HERE
 const gitInitDefinition =
-  " initialize a local repository right here in this folder";
+  " initialize a local repository right here in this folder.";
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -45,7 +45,7 @@ const gitCloneDefinition =
 */
 
 //CODE HERE
-const gitStatusDefinition = "check current status of repo";
+const gitStatusDefinition = "shows the state of files in a repo.";
 //////////////////PROBLEM 6////////////////////
 /*
     Create a variable called 'gitAddDefinition'.  
@@ -56,7 +56,8 @@ const gitStatusDefinition = "check current status of repo";
 */
 
 //CODE HERE
-const gitAddDefinition = "add some files in this directory to be tracked";
+const gitAddDefinition =
+  "add some files in this directory to the staging area so that they can be commited.";
 
 const gitAddCode = "git add .";
 //////////////////PROBLEM 7////////////////////
@@ -69,7 +70,8 @@ const gitAddCode = "git add .";
 */
 
 //CODE HERE
-const gitCommitDefinition = "create a snapshot of the file I'm tracking";
+const gitCommitDefinition =
+  "create a snapshot of the files in the staging area, saves this version of them as a commit.";
 
 const gitCommitCode = "git commit -m '' ";
 //////////////////PROBLEM 8////////////////////
@@ -80,4 +82,4 @@ const gitCommitCode = "git commit -m '' ";
 
 //CODE HERE
 
-const gitPushDefinition = "pushes code to github";
+const gitPushDefinition = "push code to a remote location.";
