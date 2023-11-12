@@ -52,9 +52,10 @@ const pinkPrice = 0.55;
 /*
 make a variable called totalAcres store it to 0
 run a for loop that loops through fujiAcres and store the sum of that array to the variable totalAcres
-loop through the galaAcres array and add the sum of that array to the total Acres variable
-loop through the pinkAcres array and add the sum of that array to the total Acres variable
+add the sum of galaAcres array to the total Acres variable
+add the sum of pinkAcres array to the total Acres variable
 log the totalAcres variable 
+the reason why I took this approach was to keep my code dry
 */
 
 let totalAcres = 0;
@@ -81,6 +82,7 @@ console.log(totalAcres);
 /*
 make a variable averageDailyAcres and set it equal to totalAcres / 7 the number of days
 log variable averageDailyAcres
+this approach was taken because average is equal to the sum of values / the number of values
 */
 
 const averageDailyAcres = totalAcres / 7;
@@ -121,6 +123,8 @@ let days = 0;
 /*
 while acresLeft is greater than 0 increment the days by 1 and subtract averageDailyAcres from AcresLeft
 log the days
+took this approach because the direction were straight-forward
+
 */
 while (acresLeft > 0) {
   days++;
@@ -156,8 +160,9 @@ console.log(days);
 /*
 make 3 empty arrays 
 run a for loop that loops through the acres 
-push the acres in tons to the corresponding tons array
+push the acres in tons (multiply the acres by 6.5) to the corresponding tons array 
 log the tons
+another straight-forward problem, approach was taken because I didn't want to be repetitive and make 3 for loops
 */
 
 let fujiTons = [];
@@ -195,6 +200,7 @@ set 3 variables to 0
 run a for loop that 
 converts the apple tons into pounds
 log the apples in pounds
+I used a for loop because I believe this was the easiest way to get a sum of all the apples from tons to pounds
 */
 
 let fujiPounds = 0;
@@ -232,6 +238,7 @@ console.log(pinkPounds);
 /*
 set the profit variables equal to pounds times price 
 log the profit
+I use this appropach because when trying to find out a price per pound you will have to use multiplication 
 */
 
 let fujiProfit = fujiPounds * fujiPrice;
@@ -257,6 +264,7 @@ console.log(pinkProfit);
 /*
 set the totalProfit variable equal to the sum of all the profits 
 log the `Total profit is $${totalProfit}`
+I took this approach because it was pretty straight-forward in the direction and I want my code to be easy to read/understand.
 */
 
 let totalProfit = fujiProfit + galaProfit + pinkProfit;
